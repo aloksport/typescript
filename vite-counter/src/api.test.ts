@@ -142,3 +142,5 @@ describe('fetchUsers', () => {
     });
   });
 });
+
+// Test cases for the fetchUsers function are defined using Vitest. Each test case mocks the global fetch function to simulate different scenarios, such as successful responses, HTTP errors, unexpected response formats, network failures, and filtering of invalid user data. The tests verify that the fetchUsers function behaves as expected in each scenario.
